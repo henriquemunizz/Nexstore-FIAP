@@ -1,8 +1,9 @@
-import './button.css'
-
 export function Button() {
 
     return (
-        <button>Click aqui</button>
+        <div>   
+            <h2>Esse botão pode ser alterado</h2>
+            <button>Click aqui</button>
+        </div>
     )
 }
