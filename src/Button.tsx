@@ -1,9 +1,13 @@
-export function Button() {
+interface ButtonProps {
+    text: string;
+}
+
+export function Button(props: ButtonProps) {
 
     return (
         <div>   
             <h2>Esse botão pode ser alterado</h2>
-            <button>Click aqui</button>
+            <button>{props.text}</button>
         </div>
     )
 }
